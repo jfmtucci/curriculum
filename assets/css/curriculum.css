@@ -1,0 +1,114 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.base {
+  display: flex;
+  justify-content: center;
+}
+.base img {
+  max-height: 3rem;
+}
+
+body {
+  margin: ();
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 5vh;
+  overflow-x: hidden; /* no generar scroll de navegacion  ocultar si se sale del area*/
+  background-color: #ffffff;
+}
+.box-shadow {
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.contact {
+  padding: 1rem;
+  padding-top: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 25% 10%;
+  color: #cfcfcf;
+}
+.container {
+  padding-top: 0.5rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  margin: 0.5rem;
+  margin-bottom: 3rem;
+  background-color: #dfdfdf;
+}
+
+.foto img {
+  max-width: 70%;
+  max-height: auto;
+  border-radius: 50%;
+  margin: 2rem;
+}
+
+.grip-explicit {
+  display: grid;
+  grid-template-columns: 20vw 1fr;
+  grid-template-rows: 40vh 1fr;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h4 {
+  margin: 0;
+}
+
+.header-content {
+  margin: 0;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.left-bg {
+  background-color: #808080;
+}
+
+li {
+  line-height: 20px;
+}
+.links {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.links img {
+  max-height: 3rem;
+}
+
+p {
+  margin: 0;
+  line-height: 20px;
+}
+
+.right-content {
+  display: block;
+  margin: 0;
+}
+.right-bg {
+  background-color: #dfdfdf;
+}
